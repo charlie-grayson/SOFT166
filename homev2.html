@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mapstyle.css">
+<style>
+    html, body, h1, h2, h3, h4, h5 {font-family: "Alegreya Sans", sans-serif}
+</style>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+
+        <h2 align="center"> Charlie Grayson</h2>
+
+
+
+    </div>
+</div>
+
+<!-- Navbar on small screens -->
+
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:70px">
+    <!-- The Grid -->
+    <div class="w3-row">
+        <!-- Left Column -->
+        <div class="w3-col m3">
+            <!-- Profile -->
+            <div class="w3-card w3-round w3-white">
+                <div class="w3-container">
+                    <h4 class="w3-center">Charlie Grayson</h4>
+                    <p class="w3-center"><img src="https://media.licdn.com/dms/image/C4E03AQFfHZBEzgaZ6w/profile-displayphoto-shrink_200_200/0?e=1580342400&v=beta&t=lrslRHSV1kmFOs15gUS1AxvGr-RInfqc-3DZI3Cs-oE" class="w3-circle" style="height:212px;width:212px" alt="Avatar"></p>
+                    <hr>
+                    <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> CIS Student at University of Plymouth</p>
+                    <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> London, UK</p>
+                    <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> January 13, 2001</p>
+                </div>
+            </div>
+            <br>
+
+            <!-- Accordion -->
+            <div class="w3-card w3-round">
+                <div class="w3-white">
+                  <a href="/Users/Charlie1301/OneDrive/Uni/OneDrive/UNI/Website/About.html"><button>About</button></a>
+                    <a href="C:/Users/Charlie Grayson/Downloads/Website/Password.html"><button>Password Checker</button></a>
+                    <a href="/Users/Charlie1301/OneDrive/Uni/OneDrive/UNI/Website/Hue Lights.html"><button>Hue Lights Password Checker</button></a>
+                </div>
+            </div>
+            <br>
+
+            <!-- Interests -->
+            <div class="w3-card w3-round w3-white w3-hide-small">
+                <div class="w3-container">
+                    <p>Map</p>
+                    <body>
+                      <div id="map"></div>
+                      <script src="map.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=createMap&key=AIzaSyAAffkWCQpXRM5pClsiPS1QNNBjhJFlYhY&callback=initMap"async defer> </script>
+  </body>
+                </div>
+            </div>
+            <br>
+
+
+            <!-- End Left Column -->
+        </div>
+        <div class="w3-twothird">
+
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Current Projects</h2>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>Password Meters</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2019 - <span class="w3-tag w3-teal w3-round">Jan 2020</span></h6>
+                    <p>I have worked to create a pair of password checkers, both using different techniques and outputs for users. One using an opensource password checker .JS file, and the other using my own custom .JS file, to output to Phillips Hue lights.</p>
+                    <hr>
+                </div>
+
+            </div>
+
+            <div class="w3-container w3-card w3-white">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>CIS Student - University of Plymouth</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+                    <p>Web Development! All I need to know in one place</p>
+                    <hr>
+                </div>
+                <div class="w3-container">
+                    <h5 class="w3-opacity"><b>Reading Blue Coat School</b></h5>
+                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2012 - 2019</h6>
+                    <p>10 GCSE A-C, 3 A-Levels A-C</p>
+                    <hr>
+                </div>
+
+            </div>
+
+            <!-- End Right Column -->
+
+
+        </div>
+
+            <br>
+
+
+            <br>
+
+
+            <br>
+
+
+
+            <!-- End Right Column -->
+        </div>
+
+        <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+</footer>
+
+<script>
+    // Accordion
+    function myFunction(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            x.previousElementSibling.className += " w3-theme-d1";
+        } else {
+            x.className = x.className.replace("w3-show", "");
+            x.previousElementSibling.className =
+                x.previousElementSibling.className.replace(" w3-theme-d1", "");
+        }
+    }
+
+    // Used to toggle the menu on smaller screens when clicking on the menu button
+    function openNav() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+
+var Light = 6;
+                    var lightState = {"on":true, "sat":254,"bri":254,"hue":25555};
+
+
+                    var URL = "http://192.168.0.50/api/stlaB2I6VZ8O80Qepc-1xfmLrHgyTFvB9IGupaQz/lights/";
+
+
+                    $.ajax({
+                        url: URL + Light + "/state/",
+                        type: "PUT",
+                        data: JSON.stringify(lightState),
+
+
+
+				
